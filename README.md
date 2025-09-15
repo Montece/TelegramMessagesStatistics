@@ -1,10 +1,11 @@
-# TelegramMessagesStatistics
-C# / .NET Telegram chat statistics
 
+# TelegramMessagesStatistics
+C# .NET 8.0 статистики Telegram переписки
+
+### Что делает программа
 Сбор статистики переписки в Telegram. Строит график зависимости количества сообщений от времени.
-<br/>
-Использование: TelegramMessagesStatistics.exe <path_to_result.json> <output.png>
-<br/>
+
+### Как запустить
+Использование: `TelegramMessagesStatistics.exe <path_to_result.json> <output.png>`
 В "path_to_result.json" указать выходной файл из следующей последовательности действий:
-<br/>
 Переписка с человеком -> Три точки сверху -> "Экспорт истории чата" -> Максимальный размер файла поставить, убрать все галочки, формат JSON -> Экспортировать
